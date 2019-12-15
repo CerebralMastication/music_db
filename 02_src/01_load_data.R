@@ -9,6 +9,6 @@ raw_data <- "./01_data/discogs_20191201_artists.xml.gz"
 
 input_data <- read_xml(raw_data)
 
-str(xml_contents(input_data)[1][1][1][1])
+(xml_contents(input_data)[[1]][[1]])
 
 
